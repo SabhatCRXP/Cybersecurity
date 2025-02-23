@@ -1,183 +1,150 @@
 "# Cybersecurity Project" 
-📅 Month 1: Foundations & Practical Security
-Week 1: Python Basics + Azure Identity & Access Management
-🔹 Python for Cybersecurity (10h)
+📅 5-Month Python for Cybersecurity & AZ-500 Learning Plan
+Time Commitment: 20 hours per week
 
-Python fundamentals (variables, loops, functions, error handling)
-File handling, regex (re module) for log analysis
-Automate simple security tasks (reading log files)
-🔹 AZ-500 (10h)
+Python for Cybersecurity: 10 hours/week
+AZ-500 & Cloud Security: 10 hours/week
+🟢 Month 1 (Weeks 1-4): Python Fundamentals & Azure Identity Security
+🎯 Goal: Build a strong Python foundation and understand Azure IAM (Identity & Access Management).
 
-Azure Identity & Access Management (IAM)
-Azure AD users, groups, roles
-Multi-Factor Authentication (MFA)
-Role-Based Access Control (RBAC)
-✅ Hands-on:
+Week 1: Python Basics & Azure Account Setup
+✅ Python (10h)
 
-Python: Create a script to parse and filter security logs.
-Azure: Set up Azure AD, create users, assign roles.
-Week 2: Python for Networking + Azure Security Basics
-🔹 Python for Cybersecurity (10h)
+Install Python, VS Code, and Jupyter Notebook.
+Learn Python variables, data types, loops, and functions.
+Understand file handling (open(), read(), write()).
+Basic log file analysis using Python.
+✅ AZ-500 (10h)
 
-socket module for networking
-Write a port scanner
-subprocess for executing system commands
-🔹 AZ-500 (10h)
+Set up Azure Free Account.
+Learn Azure Identity & Access Management (IAM).
+Create Azure Active Directory (AAD) users, groups, and roles.
+🛠 Hands-on Projects
 
-Azure Security Center & Defender
-Configure Azure Security Center
-Enable Defender for Cloud
-✅ Hands-on:
+Python: Write a script to parse and filter security logs.
+Azure: Set up Azure AD, create users, and assign roles.
+Week 2: Python Data Structures & Azure Role-Based Access Control (RBAC)
+✅ Python (10h)
 
-Python: Scan open ports on a network.
-Azure: Configure Security Center and enable alerts.
-Week 3: Python for Threat Intelligence + Azure Firewall & Network Security
-🔹 Python for Cybersecurity (10h)
+Lists, dictionaries, and sets (important for cybersecurity data processing).
+Learn how to parse JSON files.
+Introduction to the re module for regex-based log filtering.
+✅ AZ-500 (10h)
 
-Web scraping (BeautifulSoup)
-Using APIs (requests, shodan)
-Build a simple OSINT tool
-🔹 AZ-500 (10h)
+Understand Role-Based Access Control (RBAC) in Azure.
+Configure Azure Multi-Factor Authentication (MFA).
+Implement Azure Conditional Access policies.
+🛠 Hands-on Projects
 
-Azure Firewall, NSGs, and DDoS Protection
-Configure NSGs, Application Gateway WAF
-Set up Azure DDoS Protection
-✅ Hands-on:
+Python: Extract IP addresses from security logs using regex.
+Azure: Configure RBAC and MFA policies.
+Week 3: Python Scripting for Security & Azure Security Center
+✅ Python (10h)
 
-Python: Query the Shodan API to find open ports.
-Azure: Create a firewall, set NSG rules.
-Week 4: Python for Penetration Testing + Azure Monitoring
-🔹 Python for Cybersecurity (10h)
+Learn subprocess for executing system commands.
+Write scripts to detect running processes.
+Introduction to networking in Python (socket, requests).
+✅ AZ-500 (10h)
 
-scapy for packet analysis
-Network sniffing, spoofing basics
-Automate password spraying attacks
-🔹 AZ-500 (10h)
+Learn about Azure Security Center and Defender for Cloud.
+Configure security alerts in Azure.
+Understand Azure Key Vault (secure secrets storage).
+🛠 Hands-on Projects
 
-Azure Monitor & Sentinel
-Set up log monitoring
-Create custom alerts
-✅ Hands-on:
+Python: Build a script to list all running processes and detect anomalies.
+Azure: Enable security alerts & Defender for Cloud.
+Week 4: Python Networking & Azure Network Security
+✅ Python (10h)
 
-Python: Capture packets using scapy.
-Azure: Connect Azure Sentinel to logs.
-📅 Month 2: Advanced Security & Incident Response
-Week 5: Python for Blue Teaming + Azure Security Automation
-🔹 Python for Cybersecurity (10h)
+Learn socket module for port scanning.
+Use requests to interact with security APIs (VirusTotal, Shodan).
+Automate IP reputation checks.
+✅ AZ-500 (10h)
 
-Automate security event detection
-Analyze logs for suspicious activity
-Extract Indicators of Compromise (IOCs)
-🔹 AZ-500 (10h)
+Learn Azure Firewalls, NSGs, and DDoS Protection.
+Configure NSG rules to block specific IPs.
+Understand Azure VPN security.
+🛠 Hands-on Projects
 
-Azure Security Automation
-Automate security responses with Logic Apps
-Use Microsoft Defender APIs
-✅ Hands-on:
+Python: Write a basic port scanner.
+Azure: Set up a firewall & NSG to block malicious IPs.
+🟢 Month 2 (Weeks 5-8): Cybersecurity Fundamentals & Azure Threat Detection
+🎯 Goal: Start cybersecurity scripting & master Azure monitoring tools.
 
-Python: Automate log analysis for security events.
-Azure: Set up automated security responses.
-Week 6: Python for Malware Analysis + Azure Key Vault
-🔹 Python for Cybersecurity (10h)
+Week 5: Python for Threat Intelligence & Azure Sentinel
+✅ Python (10h)
 
-Use pefile and pyshark for malware analysis
-Write a script to analyze suspicious EXE files
-🔹 AZ-500 (10h)
+Scrape OSINT data using BeautifulSoup.
+Query Shodan API to find vulnerable devices.
+Automate domain reputation checks.
+✅ AZ-500 (10h)
 
-Azure Key Vault & Secrets Management
-Store/retrieve credentials securely
-Integrate Key Vault with apps
-✅ Hands-on:
+Understand Azure Sentinel (SIEM).
+Learn log collection, KQL queries.
+Set up Azure Monitor for security insights.
+🛠 Hands-on Projects
 
-Python: Analyze malware metadata.
-Azure: Set up Key Vault, retrieve secrets.
-Week 7: Cloud Security Hardening + Python for Incident Response
-🔹 Python for Cybersecurity (10h)
+Python: Build an OSINT data scraper.
+Azure: Monitor & detect security anomalies in Sentinel.
+Week 6: Python for Incident Response & Azure Log Analytics
+✅ Python (10h)
 
-volatility3 for memory forensics
-Extract forensic artifacts from RAM dumps
-🔹 AZ-500 (10h)
+Parse large security logs efficiently.
+Automate detection of failed login attempts.
+Learn pandas for log data analysis.
+✅ AZ-500 (10h)
 
-Hardening Azure Security
-Secure storage accounts
-Implement Privileged Identity Management (PIM)
-✅ Hands-on:
+Set up Azure Log Analytics.
+Configure custom security alerts.
+Understand Azure Security Best Practices.
+🛠 Hands-on Projects
 
-Python: Extract process details from memory.
-Azure: Configure PIM for admin roles.
-Week 8: Azure Attack Simulations + Python SIEM Automation
-🔹 Python for Cybersecurity (10h)
+Python: Automate login failure detection from logs.
+Azure: Configure an alert for brute-force attempts.
+Week 7: Python for Pentesting & Azure Security Automation
+✅ Python (10h)
 
-Automate log correlation for SIEM
-Process large security logs
-🔹 AZ-500 (10h)
+Learn Scapy for network packet analysis.
+Automate password spraying attacks (ethical testing).
+Write a script to detect unauthorized SSH access.
+✅ AZ-500 (10h)
 
-Simulate Azure Attacks
-Test brute-force login attempts
-Monitor attack logs in Sentinel
-✅ Hands-on:
+Automate security response using Azure Logic Apps.
+Understand Privileged Identity Management (PIM).
+Configure Azure Defender for VMs.
+🛠 Hands-on Projects
 
-Python: Automate SIEM correlation.
-Azure: Simulate and detect Azure login attacks.
-📅 Month 3: Exam Prep & Security Capstone Project
-Week 9: Azure Governance + Python Threat Intelligence
-🔹 Python for Cybersecurity (10h)
+Python: Automate SSH brute-force attack detection.
+Azure: Create a security automation workflow.
+Week 8: Python for Forensics & Azure Compliance
+✅ Python (10h)
 
-Build a Threat Intelligence dashboard
-Integrate APIs (Shodan, VirusTotal)
-🔹 AZ-500 (10h)
+Memory forensics using volatility3.
+Automate file integrity monitoring.
+Extract artifacts from RAM dumps.
+✅ AZ-500 (10h)
 
-Azure Governance
-Azure Policy, compliance management
-Blueprint configurations
-✅ Hands-on:
+Learn Azure Policy & Compliance.
+Set up Microsoft Defender for Cloud Compliance.
+Implement secure cloud governance.
+🛠 Hands-on Projects
 
-Python: Automate threat intel collection.
-Azure: Implement Azure Policies.
-Week 10: Azure Red Team vs. Blue Team + Python Forensics
-🔹 Python for Cybersecurity (10h)
+Python: Automate file integrity monitoring.
+Azure: Set up & enforce compliance policies.
+🟢 Month 3-5 (Weeks 9-20): Advanced Security & AZ-500 Exam Prep
+🎯 Goal: Complete cybersecurity automation projects & pass AZ-500.
 
-Automate file integrity monitoring
-Python for forensic timeline reconstruction
-🔹 AZ-500 (10h)
+Week 9-12: Capstone Project
+✅ Choose one major project:
 
-Red Team vs. Blue Team in Azure
-Simulate phishing attacks
-Detect & respond to attacks
-✅ Hands-on:
+Threat Intelligence Dashboard (Python + OSINT + API queries).
+SIEM Log Analysis Tool (Python + Log Processing).
+Automated Incident Response Script (Python + Azure Sentinel).
+🛠 Hands-on:
 
-Python: Create a script for file integrity monitoring.
-Azure: Simulate phishing attacks.
-Week 11-12: Capstone Project & AZ-500 Final Review
-🔹 Python for Cybersecurity (10h/week)
-
-Final Project: Choose a real-world cybersecurity problem and automate a solution.
-🔹 AZ-500 (10h/week)
-
-Exam Prep
-Take full-length practice tests
-Revise weak topics
-✅ Final Push:
-
-Python: Complete capstone project.
-Azure: Take AZ-500 certification exam.
-🚀 Expected Outcomes
-✅ Python Skills:
-
-Write security automation scripts
-Automate OSINT, malware analysis, forensic tasks
-Build security dashboards
-✅ AZ-500 Certification Ready:
-
-Secure Azure workloads
-Implement cloud security automation
-Detect & respond to security threats
-💡 Key Resources
-Python
-📖 Book: "Black Hat Python" by Justin Seitz
-🎓 Course: TryHackMe “Python for Security”
-🛠 Labs: Cybersecurity tools (scapy, volatility, shodan)
-AZ-500
-📖 Microsoft Docs: AZ-500 Study Guide
-🎓 Course: Microsoft Learn – Azure Security Engineer Track
-🛠 Labs: Microsoft Defender, Sentinel, Key Vault
+Python: Develop the project.
+Azure: Deploy & integrate with Azure Security tools.
+Week 13-16: AZ-500 Final Review
+✅ Complete AZ-500 practice tests.
+✅ Review weak areas (RBAC, Defender, Compliance).
+✅ Take the AZ-500 certification exam! 🎯
